@@ -14,7 +14,7 @@ jobs:
       - uses: actions/checkout@v3
         with: 
           repository: LiLiLibingjie/VPDemo.github.io
-          token: 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
+          token: ${{ secrets.PRIVATE_TOKEN_GITHUB }}
           submodules: true
 
       - name: Pull & update submodules recursively
